@@ -1,0 +1,366 @@
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  .full-height {
+    height: 100%;
+  }  
+
+  .intro
+  {
+    background-image: url("https://i.ibb.co/47jBJ25/bg1.png");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    
+  }
+
+  div.first
+  {
+   justify-content: center;
+    align-items: center;
+	margin: auto;
+    flex-wrap: wrap;
+    padding-right: 10ch;
+    height: 100vh;
+   
+  }
+
+  p.first{
+    font-size:8vw;
+    animation: firstanim 3s;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Bodoni Moda', serif;
+  }
+
+
+a.ok {
+    background:
+    linear-gradient(
+      to bottom,  #98DEDE  0%,
+      #98DEDE  100%
+    );
+ background-position: 0 100%;
+ background-repeat: repeat-x;
+ background-size: 4px 10px;
+ color: #000;
+ text-decoration: none;
+ transition: background-size;
+ transition-duration: 2s;
+}
+
+a.ok:hover{     
+        background-size: 100px 1000px;
+        color: whitesmoke;
+}
+
+  button.f {
+    background-color: white;
+    border: 2px solid  lightseagreen;
+    padding: 10px 20px;
+  text-align: center;
+      margin-left: 40%;
+      transition-duration: 0.4s;
+      cursor: pointer;
+  }
+
+  .f:hover {
+    background-color: lightseagreen;
+    color: white;
+  }
+
+  @keyframes firstanim {
+    from {left: -1000px;}
+    to {left: 0px;}
+  }
+
+  div.second{
+    background-image: url("https://i.ibb.co/jb5jRdr/bg1.png");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: auto;
+  }
+
+  p.second{
+      font-variant: small-caps;
+      font-size: 4.5vw;
+      color: #171717;
+      position: relative;
+      animation-delay: 5s;
+      transition-duration: 2s;
+      cursor : pointer;
+      text-align: right;
+      padding-right: 15%;
+      margin-top: 10%;
+      font-family: 'Charm', cursive;
+  }
+
+
+  p.second:hover{
+    animation: turn 2s;
+  }
+
+  @keyframes turn {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(20deg);}
+  }
+
+  p.hi{
+      justify-content: center;
+       align-items: center;
+       overflow: hidden;
+       text-overflow: ellipsis;
+       padding-right: 20%;
+       padding-left:10%;
+       padding-top: 10%;
+       margin-bottom: 0;
+       font-family: 'Great Vibes', cursive;
+       font-weight: 800;
+       font-size: 3vw;
+       cursor : grab;
+}
+
+p.hi:hover{
+    text-shadow: 2px 2px 5px orangered;
+}
+
+p.info{
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 20%;
+    padding-left:10%;
+    padding-top: 1%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+  
+a.ok2 {
+    background:
+    linear-gradient(
+      to bottom,  #e7b172  0%,
+      #e7b172  100%
+    );
+ background-position: 0 100%;
+ background-repeat: repeat-x;
+ background-size: 4px 1px;
+ color: #000;
+ text-decoration: none;
+ transition: background-size;
+ transition-duration: 2s;
+}
+
+a.ok2:hover{     
+        background-size: 100px 1000px;
+        color: whitesmoke;
+}
+
+button.g {
+    background-color: white;
+    border: 2px solid  #e7b172;
+    padding: 10px 20px;
+  text-align: center;
+      margin-left: 40%;
+      transition-duration: 0.4s;
+      cursor: pointer;
+  }
+
+  .g:hover {
+    background-color: #e7b172;
+    color: white;
+  }
+
+  div.third{
+    background-image: url("https://i.ibb.co/mNRKgg0/bg1.png");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: auto;
+  }
+
+  p.prize{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 5vw;
+    margin-left: 30%;
+    font-weight: 550;
+  }
+
+  .prize:hover {
+    text-shadow: 1px 1px 3px honeydew;
+    text-decoration: underline 2px;
+  }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+  img
+  {
+      width: 20vw;
+      height: auto;
+      padding: 5%;
+      transition: transform 1.5s;
+      position: relative;
+  }
+
+  img:hover {
+    transform: scale(1.1); 
+  }
+
+  .grid>p{
+      text-align: center;
+      padding-right: 15%;
+      font-weight: 800;
+      font-size: 1.2vw;
+      font-family: 'Dosis', sans-serif;
+      transition: transform 1.5s;
+      position: relative;
+  }
+span {
+    background-color: lightpink;
+}
+  .grid>p:hover{
+      transform: scale(1.2);
+  }
+
+  a.hi1 {
+    background:
+    linear-gradient(
+      to bottom,  #5b26a1  0%,
+      #5b26a1  100%
+    );
+ background-position: 0 100%;
+ background-repeat: repeat-x;
+ background-size: 4px 1px;
+ color: #000;
+ text-decoration: none;
+ transition: background-size;
+ transition-duration: 2s;
+}
+
+a.hi1:hover{     
+        background-size: 100px 1000px;
+        color: whitesmoke;
+}
+
+a.hi2 {
+    background:
+    linear-gradient(
+      to bottom,  #191b8a  0%,
+      #191b8a  100%
+    );
+ background-position: 0 100%;
+ background-repeat: repeat-x;
+ background-size: 4px 1px;
+ color: #000;
+ text-decoration: none;
+ transition: background-size;
+ transition-duration: 2s;
+}
+
+a.hi2:hover{     
+        background-size: 100px 1000px;
+        color: whitesmoke;
+}
+
+a.hi3 {
+    background:
+    linear-gradient(
+      to bottom,  #ffffff  0%,
+      #ffffff  100%
+    );
+ background-position: 0 100%;
+ background-repeat: repeat-x;
+ background-size: 4px 1px;
+ color: #000;
+ text-decoration: none;
+ transition: background-size;
+ transition-duration: 2s;
+}
+
+a.hi3:hover{     
+        background-size: 100px 1000px;
+        color: darkorchid;
+}
+
+button.h {
+    background-color: white;
+    border: 2px solid  palevioletred;
+    padding: 10px 20px;
+  text-align: center;
+      margin-left: 40%;
+      transition-duration: 0.4s;
+      cursor: pointer;
+
+  }
+
+  .h:hover {
+    background-color: palevioletred;
+    color: white;
+  }
+
+  button{
+      font-variant: small-caps;
+  }
+
+  .footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 0;
+}
+
+.footer-social {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 35px auto;
+}
+
+.footer-social-link {
+	height: 24px;
+	width: 24px;
+	stroke: #384047;
+	transition: all .3s;
+	transition-property: stroke;
+}
+
+.footer-social-link:hover {
+	stroke: #000;
+}
+
+.footer-social-link + .footer-social-link {
+	margin-left: 20px;
+}
+
+.footer-social-link .icon {
+	height: 100%;
+	width: 100%;
+	stroke: inherit;
+  stroke-width: 2; 
+  stroke-linecap: round; 
+  stroke-linejoin: round; 
+  fill: none;
+}
+
+p.foot {
+    font-family: 'Podkova', serif;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
